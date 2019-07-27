@@ -1,0 +1,28 @@
+{
+  "name": "sutanlab.github.io",
+  "version": "1.0.0",
+  "description": "My Github Pages site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel assets/js/src -d assets/js/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutanlab/sutanlab.github.io.git"
+  },
+  "keywords": [
+    "sgnzst"
+  ],
+  "author": "sgnzst",
+  "license": "Copyright Me",
+  "bugs": {
+    "url": "https://github.com/sutanlab/sutanlab.github.io/issues"
+  },
+  "homepage": "https://github.com/sutanlab/sutanlab.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.17.4"
+  }
+}

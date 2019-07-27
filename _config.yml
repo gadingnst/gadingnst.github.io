@@ -1,0 +1,5 @@
+#build settings
+markdown: kramdown
+baseurl: https://sutanlab.js.org
+exclude: ['README.md', 'package.json', 'package-lock.json', 'CNAME']
+permalink: pretty

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    {% include head.html %}
+    <title>Sutan Nasution.</title>
+  </head>
+  <body>
+    {% include menu.html %}
+    <header id="home">
+    <!-- disini header -->
+      <div id="banner">
+        <div id="banner-teks" class="kontainer">
+          <div id="nama" class="animasi-in-zoom">
+            <h1>Sutan Nasution.</h1>
+            <h3>Software Engineer</h3>
+          </div>
+          <div id="sub-title">
+            <h4 id="short-desc" class="animasi-fade">Welcome to my site.</h4>
+          </div>
+        </div>
+        <div class="absolute-kontainer">
+          <div class="animasi-in-zoom" id="poto-kontainer">
+            <img src="{{site.baseurl}}/assets/img/me.jpeg" alt="Sutan Nasution.">
+          </div>
+        </div>
+      </div>
+    </header>
+    {{content}}
+    {% include messagesbox.html %}
+    {% include footer.html %}
+    {% include script.html %}
+  </body>
+</html>

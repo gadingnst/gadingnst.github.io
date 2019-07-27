@@ -1,0 +1,55 @@
+#form-name, #form-message{
+  border: none;
+  background: none;
+  border-bottom: solid 4px #000;
+  display: block;
+  margin: 15px 0;
+  padding: 5px 0;
+  font-size: 12pt;
+  font-weight: bold;
+  transition: border 250ms ease-in-out;
+}
+#form-name:focus, #form-message:focus{
+  border-color: #6E0DD0;
+}
+#form-message{
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+#form-feedback{
+  padding: 10px 0;
+}
+.messages{
+  padding: 0 25px;
+  width: 100%;
+}
+.message-box{
+  border-radius: 5px;
+  border: solid 3px #000;
+  padding: 10px;
+  margin: 5px 0;
+  transition: all 250ms ease-in-out;
+  width: 100%;
+}
+.message-box:hover{
+  border-color: #6E0DD0;
+  transform: scale(1.005);
+}
+.message-box span{
+  margin: 1px;
+}
+.author{
+  color: #6E0DD0;
+  font-weight: bolder;
+}
+.message-box blockquote{
+  margin: 5px 0;
+  padding: 5px 10px;
+  width: 100%;
+  max-height: 100px;
+  white-space: pre-line;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
